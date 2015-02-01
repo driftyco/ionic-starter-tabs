@@ -46,7 +46,7 @@ angular.module('starter.services', [])
       }
       return null;
     }
-  }
+  };
 })
 
 /**
@@ -93,5 +93,5 @@ angular.module('starter.services', [])
       // Simple index lookup
       return friends[friendId];
     }
-  }
+  };
 });
