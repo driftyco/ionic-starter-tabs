@@ -11,16 +11,16 @@ To use this, either create a new ionic project using the ionic node.js utility, 
 Take the name after `ionic-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
 
 ```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myApp tabs
+$ npm install -g ionic cordova
+$ ionic start myApp tabs --type ionic1
 ```
 
 Then, to run it, cd into `myApp` and run:
 
 ```bash
-$ ionic platform add ios
-$ ionic build ios
-$ ionic emulate ios
+$ ionic cordova platform add ios
+$ ionic cordova build ios
+$ ionic cordova emulate ios
 ```
 
 Substitute ios for android if not on a Mac, but if you can, the ios development toolchain is a lot easier to work with until you need to do anything custom to Android.
